@@ -1,0 +1,16 @@
+# main links
+main:
+  - title: "Publications & Research"
+    url: /publications/
+  - title: "Work @ Aganitha"
+    url: /code/
+  # - title: "Talks"
+  #   url: /talks/
+  - title: "CV"
+    url: /cv/
+  - title: "Miscellany"
+    url: /teaching/
+  - title: "Personal"
+    url: /personal/
+  - title: "Contact"
+    url: /contact/
