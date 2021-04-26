@@ -1,0 +1,96 @@
+---
+---
+
+@article{gupta2021hammer,
+  abbr={ALA @ AAMAS},
+  title={HAMMER: Multi-Level Coordination of Reinforcement Learning Agents via Learned Messaging},
+  author={Gupta, Nikunj and Srinivasaraghavan, G and Mohalik, Swarup Kumar and Kumar, Nishant and Taylor, Matthew},
+  abstract={Cooperative multi-agent reinforcement learning (MARL) has achieved significant results, most notably by leveraging the representation learning abilities of deep neural networks. However, large centralized approaches quickly become infeasible as the number of agents scale, and fully decentralized approaches can miss important opportunities for information sharing and coordination. Furthermore, not all agents are equal - in some cases, individual agents may not even have the ability to send communication to other agents or explicitly model other agents. This paper considers the case where there is a single, powerful, central agent that can observe the entire observation space, and there are multiple, low powered, local agents that can only receive local observations and cannot communicate with each other. The job of the central agent is to learn what message to send to different local agents, based on the global observations, not by centrally solving the entire problem and sending action commands, but by determining what additional information an individual agent should receive so that it can make a better decision. After explaining our MARL algorithm, hammer, and where it would be most applicable, we implement it in the cooperative navigation and multi-agent walker domains. Empirical results show that 1) learned communication does indeed improve system performance, 2) results generalize to multiple numbers of agents, and 3) results generalize to different reward structures.},
+  journal={arXiv preprint arXiv:2102.00824},
+  year={2021},
+  video={https://www.youtube.com/watch?v=-Jfrnz4pkDU&ab_channel=ALA2021Workshop},
+  ppt={https://www.dropbox.com/s/jxu3riy0jxgar22/HAMMER___ALA_Presentation.pdf?dl=0},
+  pdf={https://arxiv.org/pdf/2102.00824.pdf}, 
+  selected={true} 
+}
+@article{learntocommunicate,
+  abbr={Ongoing Research},
+  title={Communication in Multi-Agent RL},
+  author={Gupta, Nikunj and Taylor, Matthew},
+  abstract={In Multi-Agent Reinforcement Learning, communication has been shown to be an important aspect, especially in tasks requiring coordination. For instance, agents tend to locate each other or the landmarks more easily using shared information in navigation tasks. Communication can also influence the final outcomes in group strategy coordination. There have been significant achievements using explicit communication in video games like StarCraft II as well as in mobile robotic teams, smart-grid control, and autonomous vehicles. Communication can be in the form of sharing experiences among the agents, sharing low-level information like gradient updates via communication channels or sometimes directly advising appropriate actions using a pretrained agent (teacher) or even learning teachers.},
+  year={2020},
+}
+
+@article{learntoteach,
+  abbr={Exploratory Study},
+  title={Peer-to-peer Teaching in Cooperative Multi-agent RL --- A Teacher-Student Framework in RL},
+  author={Gupta, Nikunj and Ali, Sahir Noor and Taylor, Matthew},
+  abstract={Exploring algorithms that address peer-to-peer teaching in cooperative multi-agent RL. Agents must learn when-to-advise and what-to-advise, or seek help from hand-crafted advising policies or expert teachers to improve team’s performance and learning. Aiming to investigate larger n-agent settings too.},
+  year={2021}, 
+  code={https://github.com/Nikunj-Gupta/MultiAgent-Advising},
+  selected={true} 
+}
+
+@article{hierarchicalRL,
+  abbr={Exploratory Study},
+  title={Hierarchical Reinforcement Learning --- A Manager-Employee Framework in RL},
+  author={Gupta, Nikunj and Kumar, Nishant and Taylor, Matthew},
+  abstract={Using stable hierarchies, agents must learn to formulate sub-goals that can eventually translate into meaningful behavioural primitives and make long-term credit assignment and memorisation more tractable.},
+  year={2021}, 
+  code={https://github.com/Nikunj-Gupta/Manager-Employee-RL}, 
+} 
+
+
+@article{knowledgehub,
+  abbr={Aganitha},
+  title={Aganitha Knowledge Machine (AKM) --- a perpetual knowledge machine, with ocassional human assistance},
+  author={Gupta, Nikunj and Shakya, Abhishek and C, Prasad}, 
+  abstract={Aganitha Knowledge Machine (AKM) is a perpetual knowledge machine, with ocassional human assistance. The aim of this tool is to pipeline cognitive (AI/ML) components for the purpose of continuous knowledge construction from both structured and unstructured information sources. The content can vary from being static (reference information) to changing periodically (like news or periodic reports). As a first application of AKM, we conducted an Automatic Dossier Creation for Pharmaceutical Organizations. In general, pharmaceutical companies outsource their pipleines for manufacturing and/or importing drugs to contract development and manufacturing organizations (CDMOs) around the world. In a competitive environment, and for good business, pharma companies would want to choose the best suited option out of all the available ones. That’s where we come in. Using an intelligence tool, and minimal human assistance, we aimed at gathering and presenting information, automatically, about alternate suppliers, prices, FDA abiding manufactures, financial stability, market reach, existing clients and some more similar details concerning candidate CDMOs for desired pharma companies. As the next application of AKM, we developed Aganitha Covid Hub --- a highly automated information hub for COVID research, development, therapeutics and vaccines. Here, one can learn about efforts in vaccines, anti-virals, and antibodies and explore a specific intervention, such as Eli Lilly’s antibody candidate or even collections such as mRNA trials.},
+  year={2020}, 
+  html={http://127.0.0.1:4000/al-folio/projects/akm/}, 
+} 
+
+
+@article{predictivemaintenanceRL,
+  abbr={Aganitha},
+  title={Reinforcement Learning-based Predictive Maintenance of Mission-Critical Equipment},
+  author={Gupta, Nikunj and Kanishka, Siva and Shakya, Abhishek and C, Prasad}, 
+  abstract={The classical predictive maintenance problem was formulated in a reinforcement learning setting. The aim was to maximize a cost-based reward function. Features like loss of production in downtime (direct and consequential) of equipment, costs of replacement and total possible yield (revenue) from production were used to design a single reward signal, using which an RL agent must determine when to call for maintenance tasks for the equipment based on its current health or state (values from the various sensors). We defined three maintenance regimes - Normal, Schedule, Immediate (NSI), in every life span of a sub-system/component. The RL agent is asked to recommend the action at every time step, starting from a random point in the lifespan. The model is rewarded if it recommends the right action at each time step, and is penalized otherwise. The ‘game’ ends if the model recommends an I, that is, an immediate maintenance. In case of an I, the agent is highly rewarded in case it acted during the right regime, otherwise it is heavily penalized. Also, in our case, to overcome the hindrance due to data from different timelines, we divided the training of the RL agent into two stages. In the first stage, the agent is trained on the featurized data available for 2 and 6 years. Then, the remaining sensor records (corresponding to 2 months) were augmented with the learned embeddings (from stage I) to further learn (stage II) to predict maintenance tasks at appropriate times.},
+  year={2020}, 
+  html={http://127.0.0.1:4000/al-folio/projects/predictivemaintenanceRL/}, 
+} 
+
+@article{suzukilearntorank,
+  abbr={Aganitha},
+  title={Learning-to-Rank Suzuki Coupling Reactions based on their yields using GCNs},
+  author={Gupta, Nikunj and Devulapally, Aneesha and Sihag, Manish and C, Prasad}, 
+  abstract={We developed a reaction ranking framework for chemical reactions. It was customized for one of the top-10 global bio-pharma players to develop specific models to rank Suzuki Coupling reactions. Structural properties of involved reactants, catalysts and products were used as features to train our models. Additional features incorporating Suzuki reaction mechanisms were also augmented to improve the performance.},
+  year={2019}, 
+  html={http://127.0.0.1:4000/al-folio/projects/suzuki/}, 
+} 
+
+@article{masterthesis,
+  abbr={Master's Thesis},
+  title={Fully Cooperative Multi-Agent Reinforcement Learning – Master’s Thesis},
+  author={Gupta, Nikunj and Srinivasaraghavan, G and Mohalik, Swarup Kumar}, 
+  abstract={Coordination of autonomous vehicles, automating warehouse management system or another real world complex problem like large-scale fleet management can be easily fashioned as cooperative multi-agent systems. Presently, algorithms in Reinforcement Learning (RL), which are designed for single agents, work poorly in multi-agent settings and hence there is a need for RL frameworks in Multi-Agent Systems (MAS). But, Multi-Agent Reinforcement Learning (MARL) poses its own challenges, some of the major ones being the problem of non-stationarity and the exponential growth of the joint action space with increasing number of agents. A possible solution to these complexities is to use Centralised learning and Decentralised execution of policies, however the question of using the notion of centralised learning to the fullest still remains open. As a part of this thesis, we developed an architecture, adopting the framework of centralised learning with decentralised execution, where all the actions of the individual agents are given as input to a central agent and it outputs information for them to utilize. Thus, the system of individual agents are given the opportunity of using some extra information (about other agents affecting the environment directly) from a central agent which also helps in easing their training. Results for the same are showcased on the Multi-Agent Particle Environment (MPE) by OpenAI. An extension of the architecture for the case of warehouse logistics is also shown in the thesis.},
+  year={2019}, 
+  pdf={https://www.dropbox.com/s/3pxywonf62a095n/master%27s thesis final.pdf?dl=0}, 
+  code={https://github.com/Nikunj-Gupta/FCMADRL}, 
+  ppt={https://www.dropbox.com/s/piu9ejewd6isse5/thesis_ppt.pdf?dl=0}, 
+  selected={true} 
+} 
+
+@article{texttoimagesynthesis,
+  abbr={Academic Project},
+  title={Text to Image Synthesis using DCGANs},
+  author={Gupta, Nikunj and Srinivasaraghavan, G and Babu, Dinesh}, 
+  abstract={Implemented a text-conditional Deep Convolutional GAN formulation to generate reasonable images of flowers from detailed textual descriptions. The text features were encoded using a hybrid character-level convolutional-recurrent neural network. Additionally, images with mismatched text and interpolated text embeddings were given as inputs to optimize image-text mismatching supplemental to image-realism.},
+  year={2019}, 
+  pdf={https://www.dropbox.com/s/d5rr0a3u2akzspc/Text-to-Image-synthesis-Report.pdf?dl=0}, 
+  html={https://medium.datadriveninvestor.com/text-to-image-synthesis-6e5de1bf86ec}, 
+  code={https://github.com/Nikunj-Gupta/NNProject}, 
+} 
+
+
+
