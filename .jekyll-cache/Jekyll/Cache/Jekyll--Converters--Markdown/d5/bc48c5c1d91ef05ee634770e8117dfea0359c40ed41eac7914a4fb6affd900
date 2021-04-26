@@ -1,0 +1,499 @@
+I"�9<div class="projects">
+  
+  <!-- Display categorized projects -->
+    
+      <h2 class="category">aganitha</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/suzuki/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/ranking.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Suzuki Reactions Yield Prediction</h2>
+        <p class="card-text">Learning-to-Rank Suzuki Coupling Reactions based on their yields using GCNs</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/predictivemaintenanceRL/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/rl.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Predictive Maintenance using RL</h2>
+        <p class="card-text">Predictive Maintenance of Mission-Critical Equipment using a multi-stage-learning Reinforcement Learning framework</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/akm/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/neo4j.jpg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Aganitha Knowledge Machine (AKM)</h2>
+        <p class="card-text">A perpetual knowledge machine, with ocassional human assistance</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/cdmo/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/cmo.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Automatic CDMO Dossier Creation</h2>
+        <p class="card-text">Automatic Dossier Creation for Pharmaceutical Organizations (Using AKM)</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/covidhub/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/aganithacovidhub.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Aganitha COVID-Hub</h2>
+        <p class="card-text">A highly automated hub for COVID research and development, therapeutics and vaccines.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/suzukiportal/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/airflow.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Inference Portal --- Suzuki Reactions Yield Prediction</h2>
+        <p class="card-text">Real-time Inference Portal hosting trained DNNs for on-the-fly Suzuki Coupling Reaction Feature Extraction, Yield Prediction and Ranking</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+      <h2 class="category">ericsson</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/ericsson/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/amazon.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Optimal Inventory Storage in Self-Sustained Warehouses</h2>
+        <p class="card-text">Modelled the ‘fetch and store’ segment of inventory management as a reinforcement learning problem and Deep Q-Networks were trained to learn near-optimal policies under an average cost-based reward criterion</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+      <h2 class="category">iiitb</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/dcgan/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/dcgan1.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Deep Convolutional GANs</h2>
+        <p class="card-text">Explored state-of-art work on GANs and implemented extensions like DCGANs.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://nikunj-gupta.github.io/LiNi/" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/qimi.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Qualititative Inference Engine with Multi-modal Interactions</h2>
+        <p class="card-text">Built an engine for interactive voice response (IVR) systems, using speech and text inputs to enhance customer experience. Users can save short-codes for repeating tasks. Further, using NLP techniques, we predicted user’s requests, and reduced the traversal of the IVR tree.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="/projects/remotesensing/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/lulc-flood.jpg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Land Use Land Change analysis</h2>
+        <p class="card-text">Remote Sensing Project --- Chennai Floods 2015</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/Brain-Tumor-Segmentation" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/bts.jpeg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Brain Tumor Segmentation and Classification</h2>
+        <p class="card-text">Developed Machine Learning-based software for segmentation of the brain tumour and classify it as either benign or malignant tumor</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/Car-Overtake-Detection" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/lanesafety.jpeg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Safe Lane-Changing Solution for Automobiles</h2>
+        <p class="card-text">The side-view mirrors of a car were replaced by cameras. A multi-layer perceptron was trained on SIFT features from car images for detection, followed by estimating the distance of the detected cars in images using triangular similarity.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+      <h2 class="category">abb</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="/projects/abb/">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/rl-diagram.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Efficient RL Using Better Feedback</h2>
+        <p class="card-text">Designing Rewards for Stage-wise Learning of Complex Goals using Reinforcement Learning</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+      <h2 class="category">fun</h2>
+      
+      
+      <!-- Generate cards for each project -->
+      
+        <div class="grid">
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/Genetic-Algorithms" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/ga.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Genetic-Algorithms</h2>
+        <p class="card-text">Implemeting search-based optimization techniques based on the principles of Genetics and Natural Selection. It is frequently used to find optimal or near-optimal solutions to difficult problems which otherwise would take a lifetime to solve.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/gym-multigrid" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/magrid.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Multi-Agent Gridworld Environment (MultiGrid)</h2>
+        <p class="card-text">Playing with this lightweight multi-agent gridworld Gym environment built on the MiniGrid environment.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/rial-dial-pytorch" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/rialdial.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Learning to Communicate with Deep MARL</h2>
+        <p class="card-text">Getting my hands dirty in this codebase that implements two approaches to learning discrete communication protocols for playing collaborative games --- Reinforced Inter-Agent Learning (RIAL), and Differentiable Inter-Agent Learning (DIAL).</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/ManIP" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/ip.jpg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">IP Asset Management for IIIT-B</h2>
+        <p class="card-text">The Web App helps in managing IP Assets of an organisation. Members can request for a new IP Asset and an Intellectual Property Committee (IPC) accepts or rejects an new request. The stakeholders, copyrights, licensees and the royalty rates are managed on the site. There is an Admin who takes care of IP Policies which the organisation follows.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/Faces" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/faces.jpg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Face Detection, Tracking and Recognition</h2>
+        <p class="card-text">A face detector, tracker and recognizer written in python using OpenCV and online available face image databases.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/FitWit" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/fitwit.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">FitWit</h2>
+        <p class="card-text">This is an application which helps in distinguishing between various categories like running, jumping, walking or climbing based on the given fitness data from fitness applications and devices. It uses machine learning models including kmeans clustering on the data.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/classicKONE" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/kone.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">KONE Hackathon (ideation phase)</h2>
+        <p class="card-text">Our motto was to automate the duration of life from entering a smart society to reaching your doorstep. So we built a prototype that recognizes you when you enter the building using RF id sensors (each resident has a RFID card).</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/SpamHam" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/spamham.jpeg" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">SpamHam</h2>
+        <p class="card-text">This is a Spam Ham Detection Python script. It uses Naive Bayes Classifier to predict whether an SMS Text is a spam or a Ham. The training dataset used is from Kaggle.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+            <div class="grid-item">
+  
+  <a href="https://github.com/Nikunj-Gupta/Barcode-Reader" target="_blank">
+  
+    <div class="card hoverable">
+      
+      <img src="/assets/img/arduino.png" alt="project thumbnail" />
+      
+      <div class="card-body">
+        <h2 class="card-title text-capitalize">Barcode-Reader</h2>
+        <p class="card-text">Developed a prototype of a Pen-type Barcode reader.</p>
+        <div class="row ml-1 mr-1 p-0">
+          
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+
+          
+        </div>
+      
+    
+
+  
+
+</div>
+:ET

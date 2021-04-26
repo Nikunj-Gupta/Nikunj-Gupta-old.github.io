@@ -1,0 +1,32 @@
+I"è<!-- <div class="row justify-content-sm-center">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/aganithacovidhub.png" title="PredictiveMaintenance"/>
+</div> 
+<br>  -->
+
+<p>In general, pharmaceutical companies outsource their pipleines for manufacturing and/or importing drugs to contract development and manufacturing organizations (CDMOs) around the world. In a competitive environment, and for good business, pharma companies would want to choose the best suited option out of all the available ones. That‚Äôs where we come in. Using an intelligence tool, and minimal human assistance, we aimed at gathering and presenting information, automatically, about alternate suppliers, prices, FDA abiding manufactures, financial stability, market reach, existing clients and some more similar details concerning candidate CDMOs for desired pharma companies.</p>
+
+<p>Having provided a semantic knowledge base customized to CDMOs, we could help in</p>
+
+<p><strong>Risk management:</strong></p>
+<ul>
+  <li>by proposing alternate CDMOs in situations of breakdown of existing ones</li>
+  <li>by tracking of regulatory observations and adverse news</li>
+</ul>
+
+<p><strong>Highlighting opportunities:</strong></p>
+<ul>
+  <li>using alerts on changing prices of key materials</li>
+  <li>notifying on availability of new technology</li>
+</ul>
+
+<p><strong>Augmenting sourcing knowledge:</strong></p>
+<ul>
+  <li>using periodic reports and daily news</li>
+  <li>extracting keywords and keywords-based search across multiple data sources</li>
+</ul>
+
+<p><strong>Semantic knowledge:</strong></p>
+<ul>
+  <li>using BERT models, to collate information from various sources</li>
+</ul>
+:ET
