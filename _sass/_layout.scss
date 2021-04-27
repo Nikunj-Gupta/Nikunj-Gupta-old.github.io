@@ -19,13 +19,15 @@
  }
 
 .container {
-  max-width: $max-content-width;
+  width: 2500px;
+  // max-width: $max-content-width;
 }
 
 // Profile
 .profile {
-  img {
-    width: 100%;
+  img { 
+    height: 90%;
+    width: 90%;
   }
 }
 

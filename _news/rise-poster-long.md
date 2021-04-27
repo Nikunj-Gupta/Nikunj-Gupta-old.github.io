@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Presented a <b>poster</b> at RISE, IIITB! 
+title: Presented a <b>poster</b> at RISE '19, IIITB! 
 date: "2019-02-14"
 inline: false
 ---

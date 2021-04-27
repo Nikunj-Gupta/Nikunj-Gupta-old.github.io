@@ -1,0 +1,2 @@
+all: #deploy 
+	./bin/deploy 

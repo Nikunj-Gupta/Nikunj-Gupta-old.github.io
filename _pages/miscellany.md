@@ -3,7 +3,7 @@ layout: page
 permalink: /miscellany/
 title: miscellany
 rank: 5
-description: Apart from research, my miscellaneous academic contributions. 
+description: My miscellaneous academic contributions apart from research. 
 nav: true
 ---
 <style>
