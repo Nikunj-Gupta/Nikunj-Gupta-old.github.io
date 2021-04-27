@@ -5,4 +5,4 @@ inline: true
 ---
 
 
- [**<span style="color:magenta">Aganitha Covid Hub</span>**](https://covid.hub.aganitha.ai/) platform (beta) released for public access! Please do check it out! 
+ [**<span style="color:magenta">Aganitha Covid Hub</span>**](https://covid.hub.aganitha.ai/) platform (beta) released for public access! Do check it out! 
