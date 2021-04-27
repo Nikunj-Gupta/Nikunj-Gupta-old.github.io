@@ -10,5 +10,4 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
     gem 'github-pages' 
-    gem "bibtex-ruby", ">= 5.1.0"
 end
