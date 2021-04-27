@@ -15,7 +15,7 @@ profile:
     <p>IMTech CSE | <br> <a style="color:orange" href="https://www.iiitb.ac.in/">IIIT Bangalore</p> 
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 **<span style="color:#0080ff;font-size:15px">"How can interaction lead to better behavior, better perception, better models of the world? What are the computational issues in doing this efficiently and in realtime? These are the sort of questions that I ask in trying to understand what it means to be intelligent, to predict and influence the world, to learn, perceive, act, and think."</span>** --- <span style="color:green;font-size:15px">Prof. Richard Sutton, University of Alberta</span> 
