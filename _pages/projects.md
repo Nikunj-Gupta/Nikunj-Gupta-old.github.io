@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of my cool projects.
 nav: true
 rank: 3
-display_categories: [aganitha, ericsson, iiitb, abb, fun]
+display_categories: [IRL Lab, aganitha, ericsson, iiitb, abb, fun]
 horizontal: false
 ---
 <div class="projects">
