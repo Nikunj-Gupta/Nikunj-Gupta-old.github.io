@@ -15,9 +15,9 @@ body.fixed-top-nav { padding-top: 56px; }
 
 body.sticky-bottom-footer { padding-bottom: 0; }
 
-.container { width: 2500px; }
+.container { max-width: 1200px; }
 
-.profile img { height: 90%; width: 90%; }
+.profile img { width: 75%; }
 
 /****************************************************************************** Publications *****************************************************************************/
 /*****************************************************************************

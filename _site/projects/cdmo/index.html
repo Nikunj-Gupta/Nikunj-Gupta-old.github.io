@@ -45,6 +45,16 @@
 
 
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-XXXXXXXXX');
+  </script>
+
 
 
 
@@ -63,7 +73,7 @@
 
   </head>
 
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
 
@@ -207,11 +217,13 @@
     <!-- Footer -->
 
     
-<footer class="fixed-bottom">
-  <div class="container mt-0">
+<footer class="sticky-bottom mt-5">
+  <div class="container">
     &copy; Copyright 2021 Nikunj  Gupta.
     
     
+    
+    Last updated: April 28, 2021.
     
   </div>
 </footer>
@@ -233,6 +245,11 @@
 
 
   
+<!-- Enable Tooltips -->
+<script type="text/javascript">
+$(function () {$('[data-toggle="tooltip"]').tooltip()})
+</script>
+
 
 
 <!-- Load Common JS -->

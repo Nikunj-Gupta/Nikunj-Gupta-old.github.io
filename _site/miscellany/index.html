@@ -45,6 +45,16 @@
 
 
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-XXXXXXXXX');
+  </script>
+
 
 
 
@@ -63,7 +73,7 @@
 
   </head>
 
-  <body class="fixed-top-nav ">
+  <body class="fixed-top-nav sticky-bottom-footer">
 
     <!-- Header -->
 
@@ -169,138 +179,11 @@
 
   <article>
     <style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-* {
-	box-sizing: border-box;
-}
-
-body {
-	background-color: #f6f5f7;
-	font-family: 'Open Sans', sans-serif;
-	margin-bottom: 50px;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.pricing-box-container {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-wrap: wrap;
-}
-
-.pricing-box {
-	background-color: LightGray;
-	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
-	border-radius: 4px;
-	flex: 1;
-	/* padding: 0 30px 30px; */
-	margin: 2%;
-
-    
-    height: 250px;
-    width: 250px;
-}
-
-.pricing-box h5 {
-	text-transform: uppercase;
-}
-
-.price {
-	margin: 24px 0;
-	font-size: 36px;
-	font-weight: 900;
-}
-
-.price sub, .price sup {
-	font-size: 2px;
-	font-weight: 100;
-}
-
-.features-list {
-	padding: 0;
-	list-style-type: none;
-}
-
-.features-list li {
-	font-weight: 100;
-	padding: 12px 0;
-	font-weight: 100;
-}
-
-.features-list li:not(:last-of-type) {
-	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.btn-primary {
-	border-radius: 25px;
-	border: none;
-	background-color: #EC1362;
-	color: #ffffff;
-	cursor: pointer;
-	padding: 10px 15px;
-	margin-top: 20px;
-	text-transform: uppercase;
-	transition: all 0.1s ease-in-out;
-}
-
-.btn-primary:hover {
-	box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
-	transform: translateY(-3px);
-}
-
-.pricing-box-bg-image {
-	background-image: url('https://images.unsplash.com/photo-1550029402-226115b7c579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=701&q=80');
-	background-size: cover;
-	background-position: center center;
-	color: #ffffff;
-}
-
-.pricing-box-bg-image .features-list li {
-	border-bottom-color: rgba(255, 255, 255, 1);
-}
-
-.pricing-box-bg-image .btn-primary {
-	background-color: #ffffff;
-	color: #000;
-}
-
-footer {
-	background-color: #222;
-	color: #fff;
-	font-size: 14px;
-	bottom: 0;
-	position: fixed;
-	left: 0;
-	right: 0;
-	text-align: center;
-}
-
-footer p {
-	margin: 10px 0;
-}
-
-footer i {
-	color: red;
-}
-
-footer a {
-	color: #3C97BF;
-	text-decoration: none;
-}
-
-</style>
-
-<style>
 table {
   font-family: arial, sans-serif;
   /* border-collapse: collapse; */
   width: 100%;
 }
-
 td, th {
   border: 1px solid #dddddd;
   text-align: left;
@@ -314,7 +197,7 @@ tr:nth-child(even) {
 
 <h2 id="talks-blogs-and-presentations">talks, blogs and presentations</h2>
 
-<div style="width:120%;height:425px;overflow:auto;">
+<div style="width:100%;height:425px;overflow:auto;">
 
 <table>
 
@@ -482,67 +365,161 @@ Systems, IT Infrastructure, Basic Electronics, Digital Logic and Circuits, Compu
 <p><br /></p>
 
 <h2 id="positions-of-responsibility">positions of responsibility</h2>
+<style>
+/* body {
+  font-family: Arial, Helvetica, sans-serif;
+} */
 
-<div class="pricing-box-container">
+.flip-card {
+  background-color: transparent;
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+  margin:10px;
+}
 
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
 
-	<div class="pricing-box text-center">
-		<h3>Teaching Assistant</h3> 
-		<p> Introduction to Reinforcement Learning </p>
-        <p><small> Summer School, IIITB<br /> 
-        Prof. Prashanth LA (IIT-Madras)<br />
-        Summer 2019</small> </p>
-	</div>
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
-	<div class="pricing-box text-center">
-		<h3>Teaching Assistant</h3> 
-		<p> Corporate Training course on Machine Learning</p>
-        <p><small> Videoken, Bangalore<br /> 
-        Prof. A. Rajkumar (IIT-Madras)<br />
-        Prof. Ramamurthy <br /> 
-        Spring 2019</small> </p>
-	</div>
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
 
-	<div class="pricing-box text-center">
-		<h3>Teaching Assistant</h3> 
-		<p> Mathematics for Machine Learning </p>
-        <p><small> Academic Course, IIITB<br /> 
-        Prof. Amit Chattopadhyay (IIITB) <br />
-        Prof. V Ramasubramanian (IIITB) <br />
-        Fall 2018 </small> </p>
-	</div>
+.flip-card-front {
+  background-color: #ebe2cc;
+  color: black; 
+}
 
+.flip-card-back {
+  background-color: #4205fa;
+  color: white;
+  transform: rotateY(180deg);
+} 
+.box {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+</style>
+
+<div class="box">
+
+<!-- TA RL  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>Teaching Assistant</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Introduction to Reinforcement Learning</span>
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>Summer School, IIITB</p>
+      <p>2019</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Held clarifying sessions for the RL Summer School lectures taught by <span style="font-weight: bold;color:orange;">Prof. Prashanth LA (IIT Madras)</span> at the Summer School for Machine Learning at IIIT Bangalore in 2019. </p>
+    </div>
+  </div>
 </div>
-<div class="pricing-box-container">
 
-
-	<div class="pricing-box text-center">
-		<h3>Mentor</h3> 
-		<p> Student Mentoring Program </p>
-        <p><small> IIIT Bangalore<br /> 
-        Mentored five freshman year students and helped them transition to college life.<br />
-        2017-2018</small> </p>
-	</div>
-
-	<div class="pricing-box text-center">
-		<h3>SPOC</h3> 
-		<p> Badminton and Tug of War</p>
-        <p><small> 
-        Spandan (Sports fest) at IIIT-B<br /> 
-        Managed and organised sports matches during the fest.<br /> 
-        March'18 and March'16
-        </small> </p>
-	</div>
-
-	<div class="pricing-box text-center">
-		<h3>Food Committee</h3> 
-		<p> A Student-Driven Body responsible for taking college mess related decisions </p>
-        <p><small> IIIT Bangalore<br /> 
-        Represented 1200+ people<br />
-        2015-2016 </small> </p>
-	</div>
-
+<!-- TA ML  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>Teaching Assistant</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Machine Learning <br />(Crash Course)</span> 
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>Videoken Bangalore</p>
+      <p>Spring 2019</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Conducted tutorial sessions and graded assignments for this 3-month corporate course organised by Videoken for TCS employees; Taught by <span style="font-weight: bold;color:orange;">Prof. A. Rajkumar (IIT-Madras)</span> and <span style="font-weight: bold;color:orange;">Prof. Ramamurthy</span>.</p> 
+    </div>
+  </div>
 </div>
+
+
+<!-- TA Maths for ML  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>Teaching Assistant</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Mathematics for <br />Machine Learning</span>
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>Academic Course, IIITB</p>
+      <p>Fall 2018</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Facilitated discussions and held tutorial sessions; graded homework, assignments, and exams. Course was taught by <span style="font-weight: bold;color:orange;">Prof. Amit Chattopadhyay (IIITB)</span> and <span style="font-weight: bold;color:orange;">Prof. V Ramasubramanian (IIITB) </span>.</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="box">
+
+<!-- Student Mentor  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>Mentor</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Student Mentoring Program, IIITB</span>
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>IIIT-Bangalore</p>
+      <p>2017-18</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Mentored five freshman year students and helped them transition to college life!</p>
+    </div>
+  </div>
+</div>
+
+<!-- SPOC  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>SPOC</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Spandan, IIITB <br />(Sports fest)</span>
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>Badminton | Tug-of-War</p>
+      <p>Mar'18 | Mar'16</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Managed and organised sports matches for 500+ participants in 3 days during the fest.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Food Committee  -->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <h5><b>Member</b></h5> 
+      <span style="font-weight: bold;color:magenta;">Food Committee, <br />IIIT-Bangalore</span>
+      <hr style="width:100%;text-align:center;margin-left:0" />
+      <p>IIIT-Bangalore</p>
+      <p>2015-16</p>
+    </div>
+    <div class="flip-card-back">
+      <p>Food Committee is a student-driven body at IIITB responsible for taking college mess related decisions; Represented 1200+ people!</p>
+    </div>
+  </div>
+</div>
+</div>
+
 
   </article>
 
@@ -553,11 +530,13 @@ Systems, IT Infrastructure, Basic Electronics, Digital Logic and Circuits, Compu
     <!-- Footer -->
 
     
-<footer class="fixed-bottom">
-  <div class="container mt-0">
+<footer class="sticky-bottom mt-5">
+  <div class="container">
     &copy; Copyright 2021 Nikunj  Gupta.
     
     
+    
+    Last updated: April 28, 2021.
     
   </div>
 </footer>
@@ -579,6 +558,11 @@ Systems, IT Infrastructure, Basic Electronics, Digital Logic and Circuits, Compu
 
 
   
+<!-- Enable Tooltips -->
+<script type="text/javascript">
+$(function () {$('[data-toggle="tooltip"]').tooltip()})
+</script>
+
 
 
 <!-- Load Common JS -->
