@@ -7,7 +7,8 @@ description: Exploring and Exploiting <a href="https://spinningup.openai.com/en/
 
 profile:
   align: right
-  image: bio-photo.jpg
+  # image: bio-photo.jpg 
+  video: https://www.dropbox.com/s/5q7bzvh23x2uyw3/Introduction_Nikunj.mp4?raw=1 
   address: >
     <p><a href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a><p><br> 
     <p> Active Collaborator | <br><a style="color:orange" href="https://irll.ca/">The Intelligent Robot Learning Lab, University of Alberta</a></p><br>
