@@ -8,11 +8,12 @@ nav: true
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
 
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 250px;
+  max-width: 350px;
   margin: auto;
   text-align: center;
   font-family: arial;
@@ -92,10 +93,9 @@ button {
   <img src="https://www.dropbox.com/s/vmiijegzwji0j09/old-profile-pic.jpeg?raw=1" style="width:100%">
   <h1>Nikunj Gupta</h1>
   <p class="title">Aspiring AI Researcher</p> 
-  <div class="row">
+  <!-- <div class="row">
     <div class="column">
         <p style="text-align:right;"> 
-            <!-- MS in CE <br>  -->
             Active Collaborator <br>
             Data Scientist <br>
             IMTech CSE 
@@ -103,19 +103,18 @@ button {
     </div>
     <div class="column">
         <p style="text-align:left;"> 
-            <!-- <a style="color:orange" href="https://engineering.nyu.edu/">NYU Tandon</a><br>  -->
             <a style="color:orange" href="https://irll.ca/">IRLL, UAlberta</a><br>
             <a style="color:orange" href="https://aganitha.ai/">Aganitha</a><br>
             <a style="color:orange" href="https://www.iiitb.ac.in/">IIIT-Bangalore</a>
         </p>
-    </div>
-</div>
-  <p class="subtitle">+91-9409607135</p> 
+  </div> 
+</div> -->
+  <p><b>IIIT-Bangalore</b></p> 
   <div style="margin: 20px 0;">
     <a href="http://nikunj-gupta.github.io/"><i class="fa fa-globe"></i></a> 
     <a href="https://www.linkedin.com/in/nikunj-gupta97"><i class="fa fa-linkedin"></i></a>  
+    <a href="https://scholar.google.com/citations?user=nargncAAAAAJ"><i class="ai ai-google-scholar"></i></a> 
     <a href="https://github.com/Nikunj-Gupta"><i class="fa fa-github"></i></a> 
-    <a href="https://scholar.google.com/citations?user=nargncAAAAAJ"><i class="fa fa-google"></i></a> 
   </div>
   <p><button onclick="location.href='mailto:Nikunj.Gupta@iiitb.org'"><a style="color:white" href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a></button></p>
 </div>

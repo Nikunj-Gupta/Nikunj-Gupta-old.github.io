@@ -152,28 +152,58 @@ tr:nth-child(even) {
 </div>
 <br> 
 
+
 ## relevant courses  
 
-<!-- ##### At NYU
+<!-- ##### At NYU  -->
 
-<h6><b>Machine Learning</b></h6>
-<p>Machine Learning, Reinforcement Learning, Artificial Intelligence </p> 
+##### Self / Online 
+<ul>
+    <li>* <a href="https://inst.eecs.berkeley.edu/~cs188/fa18/staff.html">CS 188 | Introduction to Artificial Intelligence</a>, Prof. Pieter Abbeel and Prof. Dan Klein, <b>UC Berkeley</b></li>
+    <li>* <a href="https://www.coursera.org/specializations/self-driving-cars">Self-Driving Cars Specialization</a>, Prof. Steven Waslander and Prof. Jonathan Kelly, <b>University of Toronto</b></li> 
 
-<h6><b>Computer Engineering</b></h6>
-<p>Data Structures and Algorithms, Design and Analysis of Algorithms, Computer Networks, Database Systems, Digital Communications, Operating Systems, Introduction to Programming Languages.</p>
+</ul>
 
-##### At IIIT-Bangalore   -->
+
+##### At IIIT-Bangalore  
 
 <h6><b>Machine Learning</b></h6> 
-<p>Foundations of Big Data Algorithms, Machine Learning, Neural Networks and Reinforcement Learning, Artificial Intelligence, Machine Perception, Advanced Machine Perception, Data Modelling and Analytics, IT in Health Care and Robotics
-Domain (ML), Linear Algebra, Digital Signal Processing and 4 graduate-level project/research electives in Data Science.</p> 
+<ul style="display:flex;flex-flow: wrap column;max-height: 150px;">
+    <li>Foundations of Big Data Algorithms</li>
+    <li>Machine Learning</li>
+    <li>Neural Networks and Reinforcement Learning</li>
+    <li>Artificial Intelligence</li>
+    <li>Machine Perception</li>
+    <li>Advanced Machine Perception</li> 
+    <li>Data Modelling and Analytics</li>
+    <li>IT in Health Care and Robotics Domain (ML)</li>
+    <li>Linear Algebra</li>
+    <li>Digital Signal Processing</li>
+    <li>4 graduate-level project/research electives in AI</li>
+</ul>
 
-<h6><b>Computer Science</b></h6>
-<p>Data Structures and Algorithms, Design and Analysis of Algorithms, Computer Networks, Database Systems, Digital Communications, Operating Systems, Introduction to Programming Languages, Programming I (C, Python), Programming II
-(C++, Java), Software Engineering, Introduction to Automata Theory and Computability, Discrete Mathematics, Signals and
-Systems, IT Infrastructure, Basic Electronics, Digital Logic and Circuits, Computer Architecture and Organization.</p>
-
+<h6><b>Computer Science</b></h6> 
+<ul style="display:flex;flex-flow: wrap column;max-height: 150px;">
+    <li>Data Structures and Algorithms</li>
+    <li>Design and Analysis of Algorithms</li>
+    <li>Computer Networks</li>
+    <li>Database Systems</li>
+    <li>Digital Communications</li>
+    <li>Operating Systems</li>
+    <li>Introduction to Programming Languages</li>
+    <li>Programming I (C, Python)</li>
+    <li>Programming II (C++, Java)</li>
+    <li>Software Engineering</li>
+    <li>Automata Theory and Computability</li>
+    <li>Discrete Mathematics</li>
+    <li>Signals and Systems</li>
+    <li>IT Infrastructure</li>
+    <li>Basic Electronics, Digital Logic and Circuits</li>
+    <li>Computer Architecture and Organization</li> 
+</ul>
 <br>
+<sub>* denotes ongoing / in progress</sub> 
+
 
 ## awards 
 <ul>
