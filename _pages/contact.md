@@ -3,7 +3,7 @@ layout: page
 permalink: /contact/
 title: contact 
 rank: 7 
-description: The best way to get in touch with me to either email me or connect with me on LinkedIn! 
+description: Want to meet virtually? Schedule a meeting using my online scheduler. Or feel free to reach out to me via email or LinkedIn! 
 nav: true
 ---
 
@@ -13,12 +13,12 @@ nav: true
 <style>
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 350px;
-  margin: auto;
+  /* max-width: 350px; */
+  max-height: 600px;
+/* margin: auto; */
   text-align: center;
   font-family: arial;
 }
-
 .title {
   color: grey;
   font-size: 18px;
@@ -85,36 +85,45 @@ button {
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
-  }
+  } 
+  
 } 
 </style> 
 
-<div class="card">
-  <img src="https://www.dropbox.com/s/vmiijegzwji0j09/old-profile-pic.jpeg?raw=1" style="width:100%">
-  <h1>Nikunj Gupta</h1>
-  <p class="title">Aspiring AI Researcher</p> 
-  <!-- <div class="row">
-    <div class="column">
-        <p style="text-align:right;"> 
-            Active Collaborator <br>
-            Data Scientist <br>
-            IMTech CSE 
-        </p>
+<div style="width: 100%; overflow: hidden;">
+      <div class="card" style="float:left;"> 
+          <img src="https://www.dropbox.com/s/vmiijegzwji0j09/old-profile-pic.jpeg?raw=1" style="width:70%;display:block;margin: 0 auto;">
+          <h1>Nikunj Gupta</h1>
+          <p class="title">Aspiring AI Researcher</p> 
+          <!-- <div class="row">
+              <div class="column">
+                  <p style="text-align:right;"> 
+                      Active Collaborator <br>
+                      Data Scientist <br>
+                      IMTech CSE 
+                  </p>
+              </div>
+              <div class="column">
+                  <p style="text-align:left;"> 
+                      <a style="color:orange" href="https://irll.ca/">IRLL, UAlberta</a><br>
+                      <a style="color:orange" href="https://aganitha.ai/">Aganitha</a><br>
+                      <a style="color:orange" href="https://www.iiitb.ac.in/">IIIT-Bangalore</a>
+                  </p>
+              </div> 
+          </div> -->
+          <p><b>IIIT-Bangalore</b></p> 
+          <!-- <p><a style="color:orange" href="https://meet-nikunj.appointlet.com">Schedule a Meeting</a></p>  -->
+          <div style="margin: 20px 0;">
+              <a href="http://nikunj-gupta.github.io/"><i class="fa fa-globe"></i></a> 
+              <a href="https://www.linkedin.com/in/nikunj-gupta97"><i class="fa fa-linkedin"></i></a>  
+              <a href="https://scholar.google.com/citations?user=nargncAAAAAJ"><i class="ai ai-google-scholar"></i></a> 
+              <a href="https://github.com/Nikunj-Gupta"><i class="fa fa-github"></i></a> 
+          </div>
+          <p><button onclick="location.href='mailto:Nikunj.Gupta@iiitb.org'"><a style="color:white" href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a></button></p>
+      </div> 
+    <div style="margin-left:350px;"> 
+        <iframe src="https://meet-nikunj.appointlet.com" height="600" width="600" title="Meet-Nikunj"> </iframe> 
     </div>
-    <div class="column">
-        <p style="text-align:left;"> 
-            <a style="color:orange" href="https://irll.ca/">IRLL, UAlberta</a><br>
-            <a style="color:orange" href="https://aganitha.ai/">Aganitha</a><br>
-            <a style="color:orange" href="https://www.iiitb.ac.in/">IIIT-Bangalore</a>
-        </p>
-  </div> 
-</div> -->
-  <p><b>IIIT-Bangalore</b></p> 
-  <div style="margin: 20px 0;">
-    <a href="http://nikunj-gupta.github.io/"><i class="fa fa-globe"></i></a> 
-    <a href="https://www.linkedin.com/in/nikunj-gupta97"><i class="fa fa-linkedin"></i></a>  
-    <a href="https://scholar.google.com/citations?user=nargncAAAAAJ"><i class="ai ai-google-scholar"></i></a> 
-    <a href="https://github.com/Nikunj-Gupta"><i class="fa fa-github"></i></a> 
-  </div>
-  <p><button onclick="location.href='mailto:Nikunj.Gupta@iiitb.org'"><a style="color:white" href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a></button></p>
+      
 </div>
+

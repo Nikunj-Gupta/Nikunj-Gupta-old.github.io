@@ -4,21 +4,22 @@ title: About
 rank: 1
 permalink: /
 description: Exploring and Exploiting <a href="https://spinningup.openai.com/en/latest/">Deep Reinforcement Learning</a>! 
-
 profile:
   align: right
   # image: bio-photo.jpg 
   video: https://www.dropbox.com/s/5q7bzvh23x2uyw3/Introduction_Nikunj.mp4?raw=1 
-  address: >
+  address: > 
     <p><a href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a><p><br> 
-    <p> Active Collaborator | <br><a style="color:orange" href="https://irll.ca/">The Intelligent Robot Learning Lab, University of Alberta</a></p><br>
-    <p>Data Scientist | <br><a style="color:orange" href="http://aganitha.ai/">Aganitha Cognitive Solutions</p><br>
-    <p>IMTech CSE | <br> <a style="color:orange" href="https://www.iiitb.ac.in/">IIIT Bangalore</p> 
+    <p> Collaborator  &emsp;&emsp;| <a style="color:orange" href="https://irll.ca/">IRLL UAlberta</a></p> 
+    <p>Data Scientist | <a style="color:orange" href="http://aganitha.ai/">Aganitha</p> 
+    <p>IMTech CSE &emsp;&emsp;&emsp;&ensp;| <a style="color:orange" href="https://www.iiitb.ac.in/">IIITB</p> 
+    <p>My Scheduler &emsp;&ensp;| <a style="color:orange" href="https://meet-nikunj.appointlet.com">Meet-Nikunj</p> 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
 
 **<span style="color:#0080ff;font-size:12px">"How can interaction lead to better behavior, better perception, better models of the world? What are the computational issues in doing this efficiently and in realtime? These are the sort of questions that I ask in trying to understand what it means to be intelligent, to predict and influence the world, to learn, perceive, act, and think."</span>** --- <span style="color:green;font-size:12px">Prof. Richard Sutton, University of Alberta</span> 
 
