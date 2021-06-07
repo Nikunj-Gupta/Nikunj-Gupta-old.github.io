@@ -6,11 +6,12 @@ permalink: /
 description: Exploring and Exploiting <a href="https://spinningup.openai.com/en/latest/">Deep Reinforcement Learning</a>! 
 profile:
   align: right
-  # image: bio-photo.jpg 
-  video: https://www.dropbox.com/s/5q7bzvh23x2uyw3/Introduction_Nikunj.mp4?raw=1 
+  image: bio-photo.jpg 
+  # video: https://www.dropbox.com/s/5q7bzvh23x2uyw3/Introduction_Nikunj.mp4?raw=1 
   address: > 
+    <p><a href="mailto:ng2531@nyu.edu">ng2531@nyu.edu</a><p>
     <p><a href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a><p><br> 
-    <p> Collaborator  &emsp;&emsp;| <a style="color:orange" href="https://irll.ca/">IRLL UAlberta</a></p> 
+    <p> Researcher  &emsp;&emsp;&emsp;&emsp;| <a style="color:orange" href="https://irll.ca/">IRLL UAlberta</a></p> 
     <p>Data Scientist | <a style="color:orange" href="http://aganitha.ai/">Aganitha</p> 
     <p>IMTech CSE &emsp;&emsp;&emsp;&ensp;| <a style="color:orange" href="https://www.iiitb.ac.in/">IIITB</p> 
     <p>My Scheduler &emsp;&ensp;| <a style="color:orange" href="https://meet-nikunj.appointlet.com">Meet-Nikunj</p> 

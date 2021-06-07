@@ -111,7 +111,7 @@ button {
                   </p>
               </div> 
           </div> -->
-          <p><b>IIIT-Bangalore</b></p> 
+          <p><b>New York University</b></p> 
           <!-- <p><a style="color:orange" href="https://meet-nikunj.appointlet.com">Schedule a Meeting</a></p>  -->
           <div style="margin: 20px 0;">
               <a href="http://nikunj-gupta.github.io/"><i class="fa fa-globe"></i></a> 
@@ -119,7 +119,7 @@ button {
               <a href="https://scholar.google.com/citations?user=nargncAAAAAJ"><i class="ai ai-google-scholar"></i></a> 
               <a href="https://github.com/Nikunj-Gupta"><i class="fa fa-github"></i></a> 
           </div>
-          <p><button onclick="location.href='mailto:Nikunj.Gupta@iiitb.org'"><a style="color:white" href="mailto:Nikunj.Gupta@iiitb.org">Nikunj.Gupta@iiitb.org</a></button></p>
+          <p><button onclick="location.href='mailto:ng2531@nyu.edu '"><a style="color:white" href="mailto:ng2531@nyu.edu">ng2531@nyu.edu </a></button></p>
       </div> 
     <div style="margin-left:350px;"> 
         <iframe src="https://meet-nikunj.appointlet.com" height="600" width="600" title="Meet-Nikunj"> </iframe> 
